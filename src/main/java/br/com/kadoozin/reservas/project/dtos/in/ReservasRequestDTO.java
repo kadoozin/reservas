@@ -1,4 +1,11 @@
 package br.com.kadoozin.reservas.project.dtos.in;
 
-public record ReservasRequestDTO() {
+import java.time.LocalDateTime;
+
+public record ReservasRequestDTO(
+        String nome,
+        String quarto,
+        LocalDateTime checkin,
+        LocalDateTime checkout
+) {
 }
