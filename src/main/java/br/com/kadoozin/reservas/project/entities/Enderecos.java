@@ -7,9 +7,10 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
+@Table(name = "tb_enderecos")
 @AllArgsConstructor
 @NoArgsConstructor
-public class Endereco {
+public class Enderecos {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
