@@ -4,15 +4,15 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.tomcat.util.buf.UEncoder;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Data
+@Table(name = "tb_reservas")
 @AllArgsConstructor
 @NoArgsConstructor
-public class Reserva {
+public class Reservas {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

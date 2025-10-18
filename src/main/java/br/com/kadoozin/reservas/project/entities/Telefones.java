@@ -5,11 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Table(name = "tb_telefone")
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Telefone {
+public class Telefones {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

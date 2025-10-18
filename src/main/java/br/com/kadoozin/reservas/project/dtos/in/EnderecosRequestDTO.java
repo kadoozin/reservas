@@ -1,6 +1,6 @@
 package br.com.kadoozin.reservas.project.dtos.in;
 
-public record EnderecoRequestDTO(
+public record EnderecosRequestDTO(
         String numero,
         String rua,
         String complemento,

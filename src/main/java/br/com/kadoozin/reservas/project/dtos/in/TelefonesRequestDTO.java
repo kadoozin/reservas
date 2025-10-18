@@ -1,6 +1,6 @@
 package br.com.kadoozin.reservas.project.dtos.in;
 
-public record TelefoneRequestDTO(
+public record TelefonesRequestDTO(
         String ddd,
         String numero
 ) {}

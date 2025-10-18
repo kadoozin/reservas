@@ -1,6 +1,6 @@
 package br.com.kadoozin.reservas.project.dtos.out;
 
-public record EnderecoResponseDTO(
+public record EnderecosResponseDTO(
         Long id,
         String numero,
         String rua,
